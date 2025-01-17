@@ -1,0 +1,30 @@
+.dndflow {
+  display: flex;
+  height: 100vh;
+}
+
+.reactflow-wrapper {
+  flex: 1;
+  height: 100%;
+}
+
+aside {
+  width: 200px;
+  padding: 10px;
+  background: #f7f7f7;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.dnditem {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.dnditem:active {
+  cursor: grabbing;
+}

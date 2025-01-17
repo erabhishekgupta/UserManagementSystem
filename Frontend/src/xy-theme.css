@@ -1,0 +1,44 @@
+.react-flow__node.selectable:focus:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .react-flow__node.selectable:hover,
+  .react-flow__node.draggable:hover {
+    border-color: #888;
+  }
+  
+  .react-flow__node.selectable.selected {
+    border-color: #0041d0;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  }
+  
+  .react-flow__node-group {
+    background-color: rgba(207, 182, 255, 0.4);
+    border-color: #9e86ed;
+  }
+  
+  .react-flow__edge.selectable:hover .react-flow__edge-path,
+  .react-flow__edge.selectable.selected .react-flow__edge-path {
+    stroke: #ff0072;
+  }
+  
+  .react-flow__handle {
+    background-color: #ddd;
+  }
+  
+  .react-flow__handle.connectionindicator:hover {
+    border-color: #ff0072;
+  }
+  
+  .react-flow__node-resizer {
+    border-radius: 0;
+    border: none;
+  }
+  
+  .react-flow__resize-control.handle {
+    background-color: #ffffff;
+    border-color: #9e86ed;
+    width: 5px;
+    height: 5px;
+  }
+  
